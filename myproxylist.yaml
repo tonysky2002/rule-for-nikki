@@ -6,3 +6,4 @@ payload:
   - DOMAIN-SUFFIX,dpdns.org
   - DOMAIN-SUFFIX,112114.xyz
   - DOMAIN-SUFFIX,stream-link.org
+  - DOMAIN-SUFFIX,api.ipify.org
