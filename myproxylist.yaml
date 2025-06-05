@@ -3,7 +3,8 @@ payload:
   - DOMAIN-SUFFIX,1panel.live
   - DOMAIN-KEYWORD,mytvsuper
   - DOMAIN-KEYWORD,dockerhub
-#  - DOMAIN-SUFFIX,dpdns.org
+  - DOMAIN-SUFFIX,pendy.dpdns.org
+  - DOMAIN-SUFFIX,livednow.dpdns.org
   - DOMAIN-SUFFIX,112114.xyz
   - DOMAIN-SUFFIX,stream-link.org
   - DOMAIN-SUFFIX,api.ipify.org
