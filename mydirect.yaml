@@ -1,0 +1,8 @@
+payload:
+    - DOMAIN-SUFFIX,shouji.sogou.com
+    - DOMAIN-SUFFIX,ledupeiyou.com
+    - DOMAIN-SUFFIX,cn-beijing.log.aliyuncs.com
+    - DOMAIN-SUFFIX,757888.xyz
+    - DOMAIN-SUFFIX,163189.xyz
+    - DOMAIN-SUFFIX,jdshipin.com
+    - IP-CIDR,122.10.116.14/32
