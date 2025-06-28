@@ -1,9 +1,9 @@
 payload:
-    - DOMAIN-SUFFIX,hinet,
+    - DOMAIN-SUFFIX,hinet.net
     - DOMAIN-KEYWORD,hamivideo
     - DOMAIN-SUFFIX,4gtv.tv
     - DOMAIN-SUFFIX,cdn.hinet.net
-    - DOMAIN-SUFFIX,akamaized,
+    - DOMAIN-SUFFIX,akamaized.net
     - DOMAIN-SUFFIX,cdn.hinet.net
     - DOMAIN-SUFFIX,akamaized.net
     - DOMAIN-SUFFIX,ofissaifreepc.akamaized.net
