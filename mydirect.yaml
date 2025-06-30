@@ -6,4 +6,5 @@ payload:
     - DOMAIN-SUFFIX,163189.xyz
     - DOMAIN-SUFFIX,jdshipin.com
     - DOMAIN-SUFFIX,dandanplay.net
+    - DOMAIN-SUFFIX,ipecho.net
     - IP-CIDR,220.130.197.210/32
