@@ -10,4 +10,5 @@ payload:
     - DOMAIN-SUFFIX,pcn.porsche.org
     - DOMAIN-SUFFIX,736dm.com
     - DOMAIN-SUFFIX,dytt-hot.com
+    - DOMAIN-SUFFIX,mch3.com
     - IP-CIDR,220.130.197.210/32
