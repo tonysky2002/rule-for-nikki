@@ -1,6 +1,9 @@
 payload:
     - DOMAIN-SUFFIX,shouji.sogou.com
     - DOMAIN-SUFFIX,ledupeiyou.com
+    - DOMAIN-SUFFIX,speiyou.com
+    - DOMAIN-SUFFIX,xesimg.com
+    - DOMAIN-SUFFIX,xueersi.com
     - DOMAIN-SUFFIX,xescdn.com
     - DOMAIN-SUFFIX,vdyoo.com
     - DOMAIN-SUFFIX,cn-beijing.log.aliyuncs.com
