@@ -1,0 +1,63 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="龍華電影台" tvg-name="龍華電影台" tvg-logo="https://iptv-pro.github.io/logo/%E9%BE%8D%E8%8F%AF%E9%9B%BB%E5%BD%B1.png" group-title="港澳台",龍華電影
+https://cdn8.163189.xyz/live/lhdy/stream.m3u8
+#EXTINF:-1 tvg-id="龍華經典" tvg-name="龍華經典" tvg-logo="https://iptv-pro.github.io/logo/%E9%BE%8D%E8%8F%AF%E7%B6%93%E5%85%B8.png" group-title="港澳台",龍華經典
+https://cdn8.163189.xyz/live/lhjd/stream.m3u8
+#EXTINF:-1 tvg-id="龍華偶像台" tvg-name="龍華偶像台" tvg-logo="https://iptv-pro.github.io/logo/%E9%BE%8D%E8%8F%AF%E5%81%B6%E5%83%8F.png" group-title="港澳台",龍華偶像
+https://cdn8.163189.xyz/live/lhox/stream.m3u8
+#EXTINF:-1 tvg-id="龍華洋片台HAMI" tvg-name="龍華洋片台HAMI" tvg-logo="https://iptv-pro.github.io/logo/%E9%BE%8D%E8%8F%AF%E6%B4%8B%E7%89%87.png" group-title="港澳台",龍華洋片台HAMI
+https://cdn8.163189.xyz/live/lhyp/stream.m3u8
+#EXTINF:-1 tvg-id="天映频道马来西亚" tvg-name="天映频道马来西亚" tvg-logo="https://iptv-pro.github.io/logo/%E5%A4%A9%E6%98%A0%E9%A2%91%E9%81%93HD.png" group-title="港澳台",天映频道马来西亚
+http://php.jdshipin.com/smt.php?id=Celestial
+#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB翡翠台.png" group-title="港澳台",翡翠台
+http://api.mg.itv888.cn:8080/hls/4bb8922027c/index.m3u8
+#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB明珠台.png" group-title="港澳台",明珠台
+http://bx.757888.xyz/api.php?id=mz
+#EXTINF:-1 tvg-id="无线新闻" tvg-name="无线新闻" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/wxxw.png" group-title="港澳台",无线新闻
+http://bx.757888.xyz/api.php?id=wxxw
+#EXTINF:-1 tvg-id="ViuTV" tvg-name="ViuTV" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="港澳台",ViuTV
+http://php.jdshipin.com:8880/smt.php?id=viu1_twn
+#EXTINF:-1 tvg-id="HOY TV" tvg-name="HOY TV" tvg-logo="https://iptv-pro.github.io/logo/HOYTV.png" group-title="未分类",HOY TV
+http://php.jdshipin.com/TVOD/iptv.php?id=hoytv
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="港澳台",鳳凰中文
+https://huuc.iptv.darwinchow.com/hls/fhzw.m3u8
+#EXTINF:-1 tvg-id="鳳凰中文" tvg-name="鳳凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="港澳台",鳳凰中文
+http://api.mg.itv888.cn:8080/hls/2f80047f91e/index.m3u8
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="港澳台",鳳凰資訊
+https://huuc.iptv.darwinchow.com/hls/fhzx.m3u8
+#EXTINF:-1 tvg-id="鳳凰資訊" tvg-name="鳳凰資訊" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="港澳台",鳳凰資訊
+http://api.mg.itv888.cn:8080/hls/11ef1dc70d8/index.m3u8
+#EXTINF:-1 tvg-id="中國電影頻道" tvg-name="中國電影頻道" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%AD%E5%9B%BD%E7%94%B5%E5%BD%B1%E9%A2%91%E9%81%93.png" group-title="港澳台",中國電影頻道
+http://bx.757888.xyz/api.php?id=zgdy
+#EXTINF:-1 tvg-id="鳳凰香港台" tvg-name="鳳凰香港台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="港澳台",鳳凰香港台
+http://php.jdshipin.com/TVOD/iptv.php?id=fhhk2
+#EXTINF:-1 tvg-id="鳳凰香港台" tvg-name="鳳凰香港台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangxianggang.png" group-title="港澳台",鳳凰香港台
+http://api.mg.itv888.cn:8080/hls/e9660dce9a6/index.m3u8
+#EXTINF:-1 tvg-id="美亞電影台" tvg-name="美亞電影台" tvg-logo="https://iptv-pro.github.io/logo/%E7%BE%8E%E4%BA%9A%E7%94%B5%E5%BD%B1%E5%8F%B0.png" group-title="港澳台",美亞電影台
+http://php.jdshipin.com/TVOD/iptv.php?id=meiya
+#EXTINF:-1 tvg-id="星空卫视" tvg-name="星空卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Startv.png" group-title="未分类",星空卫视
+https://huuc.iptv.darwinchow.com/hls/startv.m3u8
+#EXTINF:-1 tvg-id="Astro QJ" tvg-name="Astro QJ" tvg-logo="https://iptv-pro.github.io/logo/Astro%20Quan%20Jia.png" group-title="未分类",Astro QJ
+http://php.jdshipin.com/smt.php?id=Quanjia
+#EXTINF:-1,tvg-id="中天亞洲台" tvg-name="中天亞洲台" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%AD%E5%A4%A9%E4%BA%9A%E6%B4%B2%E5%8F%B0.png" group-title="台湾",中天亞洲台
+http://ali.hlspull.yximgs.com/live/awei_ztyz.flv
+#EXTINF:-1,tvg-id="中天綜合台" tvg-name="中天綜合台" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%AD%E5%A4%A9%E7%BB%BC%E5%90%88%E5%8F%B0.png" group-title="台湾",中天綜合台
+http://ali.hlspull.yximgs.com/live/awei_ztzh.flv
+#EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%AD%E5%A4%A9%E6%96%B0%E9%97%BB%E5%8F%B0.png" group-title="台湾",中天新聞台
+http://bx.757888.xyz/api.php?id=ztxw
+#EXTINF:-1,tvg-id="中天娛樂台" tvg-name="中天娛樂台" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%AD%E5%A4%A9%E5%A8%B1%E4%B9%90.png" group-title="台湾",中天娛樂台
+http://ali.hlspull.yximgs.com/live/167ztyl.flv
+#EXTINF:-1,tvg-id="東森綜合台" tvg-name="東森綜合台" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%9C%E6%A3%AE%E7%BB%BC%E5%90%88.png" group-title="台湾",東森綜合台
+http://ali.hlspull.yximgs.com/live/awei_dszh.flv
+#EXTINF:-1 tvg-id="愛爾達娛樂台" tvg-name="愛爾達娛樂台" tvg-logo="https://cdn.jsdelivr.net/gh/wanglindl/TVlogo@main/img/ELTA3.png" group-title="音樂綜藝",愛爾達娛樂台
+http://ali.hlspull.yximgs.com/live/awei_aedyl.flv
+#EXTINF:-1,tvg-id="東森電影台" tvg-name="東森電影台" tvg-logo="https://iptv-pro.github.io/logo/%E4%B8%9C%E6%A3%AE%E7%94%B5%E5%BD%B1.png" group-title="台湾",東森電影台
+http://ali.hlspull.yximgs.com/live/awei_dszh.flv
+#EXTINF:-1,tvg-id="国家地理频道" tvg-name="国家地理频道" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/NATGEO.png" group-title="台湾",国家地理频道
+https://huuc.iptv.darwinchow.com/hls/natlgeo.m3u8
+#EXTINF:-1,tvg-id="Discovery" tvg-name="Discovery" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Discovery.png" group-title="台湾",Discovery
+https://huuc.iptv.darwinchow.com/hls/discovery.m3u8
+#EXTINF:-1,tvg-id="星影台" tvg-name="星影台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/now5.png" group-title="台湾",星影台
+http://push-rtmp-hs-spe-f5.douyincdn.com/live/hktv-nowxyt.flv
+#EXTINF:-1,tvg-id="爆谷台" tvg-name="爆谷台" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/now4.png" group-title="台湾",爆谷台
+http://push-rtmp-hs-spe-f5.douyincdn.com/live/hktv-nowbgt.flv
