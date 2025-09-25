@@ -168,37 +168,37 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001018/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001016/index.m3u8
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/dfcj.png" group-title="上海频道",东方财经
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001318/index.m3u8
-#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://live.fanmingming.com/tv/法治天地.png" group-title="上海频道",法治天地
+#EXTINF:-1 tvg-id="法治天地" tvg-name="法治天地" tvg-logo="https://epg.112114.eu.org/logo/%E6%B3%95%E6%B2%BB%E5%A4%A9%E5%9C%B0.png" group-title="上海频道",法治天地
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001195/index.m3u8
 #EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/dycj.png" group-title="上海频道",第一财经
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001017/index.m3u8
-#EXTINF:-1 tvg-id="Bestv赛事1" tvg-name="Bestv赛事1" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="赛事直播",Bestv赛事1
+#EXTINF:-1 tvg-id="Bestv赛事1" tvg-name="Bestv赛事1" tvg-logo="https://epg.112114.eu.org/logo/bestv.png" group-title="赛事直播",Bestv赛事1
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001151/index.m3u8
-#EXTINF:-1 tvg-id="Bestv赛事2" tvg-name="Bestv赛事2" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="赛事直播",Bestv赛事2
+#EXTINF:-1 tvg-id="Bestv赛事2" tvg-name="Bestv赛事2" tvg-logo="https://epg.112114.eu.org/logo/bestv.png" group-title="赛事直播",Bestv赛事2
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001359/index.m3u8
-#EXTINF:-1 tvg-id="Bestv赛事3" tvg-name="Bestv赛事3" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="赛事直播",Bestv赛事3
+#EXTINF:-1 tvg-id="Bestv赛事3" tvg-name="Bestv赛事3" tvg-logo="https://epg.112114.eu.org/logo/bestv.png" group-title="赛事直播",Bestv赛事3
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001388/index.m3u8
-#EXTINF:-1 tvg-id="Bestv赛事4" tvg-name="Bestv赛事4" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="赛事直播",Bestv赛事4
+#EXTINF:-1 tvg-id="Bestv赛事4" tvg-name="Bestv赛事4" tvg-logo="https://epg.112114.eu.org/logo/bestv.png" group-title="赛事直播",Bestv赛事4
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001149/index.m3u8
-#EXTINF:-1 tvg-id="Bestv赛事5" tvg-name="Bestv赛事5" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="赛事直播",Bestv赛事5
+#EXTINF:-1 tvg-id="Bestv赛事5" tvg-name="Bestv赛事5" tvg-logo="https://epg.112114.eu.org/logo/bestv.png" group-title="赛事直播",Bestv赛事5
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001153/index.m3u8
-#EXTINF:-1 tvg-id="Bestv赛事6" tvg-name="Bestv赛事6" tvg-logo="https://live.fanmingming.com/tv/bestv.png" group-title="赛事直播",Bestv赛事6
+#EXTINF:-1 tvg-id="Bestv赛事6" tvg-name="Bestv赛事6" tvg-logo="https://epg.112114.eu.org/logo/bestv.png" group-title="赛事直播",Bestv赛事6
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001154/index.m3u8
-#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-1" tvg-logo="https://live.fanmingming.com/tv/东方购物.png" group-title="购物频道",东方购物-1
+#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-1" tvg-logo="https://epg.112114.eu.org/logo/%E4%B8%9C%E6%96%B9%E8%B4%AD%E7%89%A9.png" group-title="购物频道",东方购物-1
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001040/index.m3u8
-#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-2" tvg-logo="https://live.fanmingming.com/tv/东方购物.png" group-title="购物频道",东方购物-2
+#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-2" tvg-logo="https://epg.112114.eu.org/logo/%E4%B8%9C%E6%96%B9%E8%B4%AD%E7%89%A9.png" group-title="购物频道",东方购物-2
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001039/index.m3u8
-#EXTINF:-1 tvg-id="央广购物" tvg-name="央广购物" tvg-logo="https://live.fanmingming.com/tv/央广购物.png" group-title="购物频道",央广购物
+#EXTINF:-1 tvg-id="央广购物" tvg-name="央广购物" tvg-logo="https://epg.112114.eu.org/logo/%E5%A4%AE%E5%B9%BF%E8%B4%AD%E7%89%A9.png" group-title="购物频道",央广购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001420/index.m3u8
-#EXTINF:-1 tvg-id="优购物" tvg-name="优购物" tvg-logo="https://live.fanmingming.com/tv/优购物.png" group-title="购物频道",优购物
+#EXTINF:-1 tvg-id="优购物" tvg-name="优购物" tvg-logo="https://epg.112114.eu.org/logo/%E4%BC%98%E8%B4%AD%E7%89%A9.png" group-title="购物频道",优购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001440/index.m3u8
-#EXTINF:-1 tvg-id="好享购物" tvg-name="好享购物" tvg-logo="https://live.fanmingming.com/tv/好享购物.png" group-title="购物频道",好享购物
+#EXTINF:-1 tvg-id="好享购物" tvg-name="好享购物" tvg-logo="https://epg.112114.eu.org/logo/%E5%A5%BD%E4%BA%AB%E8%B4%AD%E7%89%A9.png" group-title="购物频道",好享购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001132/index.m3u8
-#EXTINF:-1 tvg-id="聚鲨精选" tvg-name="聚鲨精选" tvg-logo="https://live.fanmingming.com/tv/聚鲨环球精选.png" group-title="购物频道",聚鲨精选
+#EXTINF:-1 tvg-id="聚鲨精选" tvg-name="聚鲨精选" tvg-logo="https://epg.112114.eu.org/logo/%E8%81%9A%E9%B2%A8%E7%8E%AF%E7%90%83%E7%B2%BE%E9%80%89.png" group-title="购物频道",聚鲨精选
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001138/index.m3u8
-#EXTINF:-1 tvg-id="家家购物" tvg-name="家家购物" tvg-logo="https://live.fanmingming.com/tv/家家购物.png" group-title="购物频道",家家购物
+#EXTINF:-1 tvg-id="家家购物" tvg-name="家家购物" tvg-logo="https://epg.112114.eu.org/logo/%E5%AE%B6%E5%AE%B6%E8%B4%AD%E7%89%A9.png" group-title="购物频道",家家购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001163/index.m3u8
-#EXTINF:-1 tvg-id="家有购物" tvg-name="家有购物" tvg-logo="https://live.fanmingming.com/tv/家有购物.png" group-title="购物频道",家有购物
+#EXTINF:-1 tvg-id="家有购物" tvg-name="家有购物" tvg-logo="https://epg.112114.eu.org/logo/%E5%AE%B6%E6%9C%89%E8%B4%AD%E7%89%A9.png" group-title="购物频道",家有购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001244/index.m3u8
-#EXTINF:-1 tvg-id="快乐购" tvg-name="快乐购" tvg-logo="https://live.fanmingming.com/tv/快乐购.png" group-title="购物频道",快乐购
+#EXTINF:-1 tvg-id="快乐购" tvg-name="快乐购" tvg-logo="https://epg.112114.eu.org/logo/%E5%BF%AB%E4%B9%90%E8%B4%AD.png" group-title="购物频道",快乐购
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001368/index.m3u8
