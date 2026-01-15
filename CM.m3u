@@ -52,6 +52,8 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001710/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001013/index.m3u8
 #EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://bp-image.bestv.cn/resource/pic/6d65ad26-bddf-4004-8a91-42b9cdada16a1758869138356.png" group-title="卫视频道",东方卫视4K
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001641/index.m3u8
+#EXTINF:-1 tvg-id="东方卫视" tvg-name="东方卫视" tvg-logo="https://bp-image.bestv.cn/resource/pic/6d65ad26-bddf-4004-8a91-42b9cdada16a1758869138356.png" group-title="卫视频道",东方卫视4K
+http://bp-live4ktc.bestv.cn/live/dfws4k_4k265p.m3u8
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Sichuan.png" group-title="卫视频道",四川卫视
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001130/index.m3u8
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://raw.githubusercontent.com/tonysky2002/rule-for-nikki/refs/heads/main/Icon/sichuan_4k.png" group-title="卫视频道",四川卫视4K
