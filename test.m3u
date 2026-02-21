@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/翡翠台.png" group-title="港澳台",翡翠台
-http://php.jdshipin.com/TVOD/iptv.php?id=fct
+#EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/翡翠台.png" group-title="港澳台",翡翠台4K
+https://o11.163189.xyz/stream/tvb/fct4k/
 #EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/翡翠台.png" group-title="港澳台",翡翠台
 http://php.jdshipin.com/TVOD/iptv.php?id=fct2
 #EXTINF:-1,tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://epg.112114.eu.org/logo/翡翠台.png" group-title="港澳台",翡翠台
@@ -16,7 +16,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=j1
 #EXTINF:-1,tvg-id="TVB J1" tvg-name="TVB J1" tvg-logo="https://epg.112114.eu.org/logo/TVBJ1.png" group-title="港澳台",TVB J1
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbj1
 #EXTINF:-1,tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://epg.112114.eu.org/logo/TVBPLUS.png" group-title="港澳台",TVB Plus
-http://php.jdshipin.com/TVOD/iptv.php?id=j2
+https://o11.163189.xyz/stream/tvb/tvbp/
 #EXTINF:-1,tvg-id="TVB Plus" tvg-name="TVB Plus" tvg-logo="https://epg.112114.eu.org/logo/TVBPLUS.png" group-title="港澳台",TVB Plus
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 #EXTINF:-1,tvg-id="无线新闻" tvg-name="无线新闻" tvg-logo="https://epg.112114.eu.org/logo/无线新闻.png" group-title="港澳台",无线新闻
@@ -38,7 +38,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fhzw2
 #EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.eu.org/logo/凤凰资讯.png" group-title="香港",凤凰资讯
 http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
 #EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.eu.org/logo/凤凰资讯.png" group-title="香港",凤凰资讯
-http://php.jdshipin.com/TVOD/iptv.php?id=fhzx2
+https://ytb.178.indevs.in/?id=fN9uYWCjQaw
 #EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.112114.eu.org/logo/凤凰香港.png" group-title="香港",凤凰香港
 http://php.jdshipin.com/TVOD/iptv.php?id=fhhk
 #EXTINF:-1,tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://epg.112114.eu.org/logo/凤凰香港.png" group-title="香港",凤凰香港
@@ -96,9 +96,9 @@ http://php.jdshipin.com/TVOD/iptv.php?id=huali
 #EXTINF:-1,tvg-id="TVB娱乐新闻台" tvg-name="TVB娱乐新闻台" tvg-logo="https://epg.112114.eu.org/logo/TVB娱乐新闻台.png" group-title="港澳台",TVB娱乐新闻台
 http://php.jdshipin.com/smt.php?id=Tvbentertainment
 #EXTINF:-1,tvg-id="天映经典" tvg-name="天映经典" tvg-logo="https://epg.112114.eu.org/logo/天映经典.png" group-title="其他",天映频道
- http://php.jdshipin.com/smt.php?id=Celestial
+https://cdn10.163189.xyz/stream/163189/typd/
 #EXTINF:-1,tvg-id="天映经典" tvg-name="天映经典" tvg-logo="https://epg.112114.eu.org/logo/天映经典.png" group-title="其他",天映经典
-http://php.jdshipin.com/smt.php?id=Celestial2
+https://cdn10.163189.xyz/stream/163189/ccm/
 #EXTINF:-1,tvg-id="Astro AOD" tvg-name="Astro AOD" tvg-logo="https://epg.112114.eu.org/logo/ASTROAOD.png" group-title="港澳台",Astro AOD
 http://php.jdshipin.com/TVOD/iptv.php?id=aod
 #EXTINF:-1,tvg-id="Astro AEC" tvg-name="Astro AEC" tvg-logo="https://epg.112114.eu.org/logo/ASTROAEC.png" group-title="港澳台",Astro AEC
