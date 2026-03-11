@@ -1,7 +1,6 @@
 payload:
     - DOMAIN-SUFFIX,shouji.sogou.com
-    - DOMAIN-SUFFIX,porsche-pcn.com
-    - DOMAIN-SUFFIX,pcn.porsche.org
+    - DOMAIN-SUFFIX,cmvideo.cn
     - DOMAIN-SUFFIX,tracker.cspt.date
     - DOMAIN-SUFFIX,tracker.cspt.top
     - DOMAIN-SUFFIX,tracker.cspt.cc
