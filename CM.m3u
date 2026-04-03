@@ -200,9 +200,9 @@ http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001149/index.m3u8
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001153/index.m3u8
 #EXTINF:-1 tvg-id="Bestv赛事6" tvg-name="Bestv赛事6" tvg-logo="https://epg.112114.eu.org/logo/bestv.png" group-title="赛事直播",Bestv赛事6
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001154/index.m3u8
-#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-1" tvg-logo="https://epg.112114.eu.org/logo/%E4%B8%9C%E6%96%B9%E8%B4%AD%E7%89%A9.png" group-title="购物频道",东方购物-2
+#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-2" tvg-logo="https://epg.112114.eu.org/logo/%E4%B8%9C%E6%96%B9%E8%B4%AD%E7%89%A9.png" group-title="购物频道",东方购物-2
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001040/index.m3u8
-#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-2" tvg-logo="https://epg.112114.eu.org/logo/%E4%B8%9C%E6%96%B9%E8%B4%AD%E7%89%A9.png" group-title="购物频道",东方购物-1
+#EXTINF:-1 tvg-id="东方购物" tvg-name="东方购物-1" tvg-logo="https://epg.112114.eu.org/logo/%E4%B8%9C%E6%96%B9%E8%B4%AD%E7%89%A9.png" group-title="购物频道",东方购物-1
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001039/index.m3u8
 #EXTINF:-1 tvg-id="央广购物" tvg-name="央广购物" tvg-logo="https://epg.112114.eu.org/logo/%E5%A4%AE%E5%B9%BF%E8%B4%AD%E7%89%A9.png" group-title="购物频道",央广购物
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001420/index.m3u8
