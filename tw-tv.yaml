@@ -2,7 +2,7 @@ payload:
     - DOMAIN-KEYWORD,hamivideo
     - DOMAIN-SUFFIX,api2.4gtv.tv
     - DOMAIN-SUFFIX,cdn.hinet.net
-    - DOMAIN-SUFFIX,akamaized.net
+    - DOMAIN-SUFFIX,ofissaifreepc.akamaized.net
     - DOMAIN-SUFFIX,litvpc-hichannel.cdn.hinet.net
     - DOMAIN-SUFFIX,4gtvfree-cds.cdn.hinet.net
     - DOMAIN-SUFFIX,4gtvfree-mozai.4gtv.tv
