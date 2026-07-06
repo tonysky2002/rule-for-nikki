@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.deny.vip/sh/tel-epg.xml" catchup="append" catchup-source="?starttime=${(b)timestamp}&endtime=${(e)timestamp}"
+#EXTM3U url-tvg="https://epg.deny.vip/sh/tel-epg.xml" catchup="append" catchup-source="?starttime=${(b)yyyyMMdd|UTC}T${(b)HHmmss|UTC}&endtime=${(e)yyyyMMdd|UTC}T${(e)HHmmss|UTC}"
 
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="央视频道",CCTV-1 综合
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001022/index.m3u8
