@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.yang-1989.eu.org/epg.xml.gz"
 #EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.eu.org/logo/凤凰中文.png" group-title="香港",凤凰中文
 https://cdn.qd.je/163189/fhzw
 #EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.eu.org/logo/凤凰中文.png" group-title="香港",凤凰中文
