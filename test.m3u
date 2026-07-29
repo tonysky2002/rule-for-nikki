@@ -9,15 +9,15 @@ https://cdn.qd.je/163189/fhzx
 https://php.jdshipin.com:2096/TVOD/iptv.php?id=fhzx2
 #EXTINF:-1,tvg-id="美亚电影" tvg-name="美亚电影" tvg-logo="https://epg.112114.eu.org/logo/美亚电影.png" group-title="其他",美亚电影
 https://iptv.707626.xyz/live/stream-c5d6f2af/master.m3u8
-#EXTINF:-1,tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="https://epg.112114.eu.org/logo/龙华电影.png" group-title="其他",龙华电影
+#EXTINF:-1,tvg-id="龍華電影" tvg-name="龍華電影" tvg-logo="https://epg.112114.eu.org/logo/龙华电影.png" group-title="其他",龍華電影
 https://cdn.qd.je/163189/lhdy
-#EXTINF:-1,tvg-id="龙华经典" tvg-name="龙华经典" tvg-logo="https://epg.112114.eu.org/logo/龙华经典.png" group-title="其他",龙华经典
+#EXTINF:-1,tvg-id="龍華經典" tvg-name="龍華經典" tvg-logo="https://epg.112114.eu.org/logo/龙华经典.png" group-title="其他",龍華經典
 https://cdn.qd.je/163189/lhjd
-#EXTINF:-1,tvg-id="龙华偶像" tvg-name="龙华偶像" tvg-logo="https://epg.112114.eu.org/logo/龙华偶像.png" group-title="其他",龙华偶像
+#EXTINF:-1,tvg-id="龍華偶像" tvg-name="龍華偶像" tvg-logo="https://epg.112114.eu.org/logo/龙华偶像.png" group-title="其他",龍華偶像
 https://cdn.qd.je/163189/lhox
-#EXTINF:-1,tvg-id="龙华日韩台" tvg-name="龙华日韩台" tvg-logo="https://epg.112114.eu.org/logo/龙华日韩台.png" group-title="其他",龙华日韩
+#EXTINF:-1,tvg-id="龍華日韓" tvg-name="龍華日韓" tvg-logo="https://epg.112114.eu.org/logo/龙华日韩台.png" group-title="其他",龍華日韓
 https://cdn.qd.je/163189/lhrh
-#EXTINF:-1,tvg-id="龙华洋片" tvg-name="龙华洋片" tvg-logo="https://epg.112114.eu.org/logo/龙华洋片.png" group-title="其他",龙华洋片
+#EXTINF:-1,tvg-id="龍華洋片" tvg-name="龍華洋片" tvg-logo="https://epg.112114.eu.org/logo/龙华洋片.png" group-title="其他",龍華洋片
 https://cdn.qd.je/163189/lhyp
 #EXTINF:-1,tvg-id="天映频道" tvg-name="天映经典" tvg-logo="https://epg.112114.eu.org/logo/天映经典.png" group-title="其他",天映频道(新加坡)
 https://cdn.qd.je/163189/typd
