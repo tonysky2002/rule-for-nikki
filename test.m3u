@@ -32,6 +32,8 @@ https://iptv.707626.xyz/live/stream-now-x1vz/master.m3u8
 #EXTINF:-1,tvg-id="上海五星体育" tvg-name="上海五星体育" tvg-logo="https://epg.112114.eu.org/logo/上海五星体育.png" group-title="其他",五星体育
 https://cdn.qd.je/163189/wxty
 #EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://epg.112114.eu.org/logo/中天新聞台.png" group-title="其他",中天新聞台
+https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
+#EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://epg.112114.eu.org/logo/中天新聞台.png" group-title="其他",中天新聞台
 http://198.98.55.60:6666/z/index.m3u8
 #EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://epg.112114.eu.org/logo/中天新聞台.png" group-title="其他",中天新聞台
 http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1782639885837
