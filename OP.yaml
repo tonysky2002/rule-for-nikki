@@ -220,13 +220,6 @@ ntp:
   port: 123
   interval: 30
 
-# 控制面板
-external-controller: 0.0.0.0:9090
-secret: ""
-external-ui: "/etc/mihomo/run/ui"
-external-ui-name: zashboard
-external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
-
 # 嗅探
 sniffer:
   enable: false
