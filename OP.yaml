@@ -1,0 +1,507 @@
+proxy-providers:
+  yushe:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: <https://www.gstatic.com/generate_204>
+      interval: 300
+    proxy: 直连
+    url: https://sub.cucloud.top/api/v1/client/subscribe?token=MTE3NzozNWE4NDllMzM4OTQwZmU5YTYzY2YwMDZjZWFhMzYxMjBkOThiOGRl
+    
+  yue.to:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: <https://www.gstatic.com/generate_204>
+      interval: 300
+    proxy: 直连
+    url: https://sso.yuetoto.com/api/v2/avatar/e9909292f8992d41a6db1106515d138e
+    
+  CF:
+    type: http
+    interval: 1800
+    health-check:
+      enable: true
+      url: <https://www.gstatic.com/generate_204>
+      interval: 300
+    proxy: 直连
+    url: https://test.12321888.xyz/sub?token=9015856b111f3732608cb4097592362e
+    
+# 节点信息
+proxies:
+
+- name: hk-yecao
+  type: vless
+  server:  68.64.180.63
+  port: 59436
+  uuid: c60ae0de-d495-4332-8271-65536e36f5c1
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.cloudflare.com
+  reality-opts: 
+    public-key: LX9bilZnaFo5rnbBFbcjgnndfkLDWcZCB0q1ZS_EfBw
+  client-fingerprint: chrome
+  
+- name: hk-yecao-anytls
+  type: anytls
+  server:  68.64.180.63
+  port: 8443
+  password: Tconfig123
+  udp: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  
+- name: hk-wawo
+  type: vless
+  server: 208.66.229.175
+  port: 64109
+  uuid: f6adb500-7a2e-4307-8e7a-04956e4fda79
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.ebay.com
+  reality-opts: 
+    public-key: FEiydYKCTDOagiY1ebe6RreuR6lePvdsjXL5WlEitCc
+ #   shortId: 6ba85179e30d4fc2
+  client-fingerprint: chrome
+  
+- name: hk-wawo-anytls
+  type: anytls
+  server: 208.66.229.175
+  port: 8443
+  password: Tconfig123
+  udp: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+
+- name: hk-wawo-cf
+  type: vless
+  server: wawo.12321888.xyz
+  port: 443
+  uuid: acf90733-1f73-44a6-9c9a-e54175eabb4e
+  udp: true
+  tls: true
+  network: ws
+  servername: wawo.12321888.xyz
+  ws-opts:
+      path: /acf90733-1f73-44a6-9c9a-e54175eabb4e
+      headers:
+        Host: wawo.12321888.xyz
+
+- name: hostdz
+  type: vless
+  server:  142.91.105.112
+  port: 29922
+  uuid: d4dfcdb4-a13d-4ec6-994c-5da6822d67e6
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: aws.amazon.com
+  reality-opts: 
+    public-key: xufjOKjb7YUXXA5bvhZopXUgN_-W-cK_dICMzPbhaXY
+  client-fingerprint: chrome
+
+- name: hostdz-anytls
+  type: anytls
+  server: 142.91.105.112
+  port: 8443
+  password: Tconfig123
+  udp: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+
+- name: hostdz-cf
+  type: vmess
+  server: hostdz.12321888.xyz
+  port: 443
+  uuid: 1881b0c4-cecf-42f5-bf48-b66b646dcc17
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  network: ws
+  ws-opts:
+     path: /1881b0c4-cecf-42f5-bf48-b66b646dcc17
+      # headers:
+     host: hostdz.12321888.xyz
+
+- name: hncloud
+  type: vless
+  server: 207.56.228.173
+  port: 1075
+  uuid: 23005bd9-ba61-4095-87e6-838645a831e2
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: aws.amazon.com
+  reality-opts: 
+    public-key: 9x0jTjHogTf1DzhHHyfh9cNSSSD5zJpIdHDUFyY0QyE
+  client-fingerprint: chrome
+
+- name: hncloud-anytls
+  type: anytls
+  server: 207.56.228.173
+  port: 36789
+  password: d06c4f3c-1fb5-4625-bc97-08dc71c4ee88
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+
+- name: jp-legend
+  type: vless
+  server:  216.23.101.10
+  port: 5790
+  uuid: 55d354f1-6bd7-4733-8616-153829bb7520
+  network: tcp
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.amazon.com
+  reality-opts: 
+    public-key: DwMeDAa0RCQQXNJlW5KuovQgNqkHLI41ytibWupHuzY
+  client-fingerprint: chrome
+
+- name: jp-legend-anytls
+  type: anytls
+  server: 2a14:7dc0:160:10d3::1f20
+  port: 37893
+  password: 03b50c0d-3727-4a1d-8584-6cb5de2d67ab
+  udp: true
+  skip-cert-verify: true
+  client-fingerprint: chrome
+
+- {name: 直连, type: direct, udp: true}
+ 
+
+# 全局配置 
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7894
+allow-lan: true
+bind-address: "*"
+mode: rule
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+log-level: warning
+find-process-mode: 'off'
+# interface-name: en0
+# global-client-fingerprint: random
+etag-support: true
+keep-alive-idle: 600
+keep-alive-interval: 15
+#disable-keep-alive: false
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+geodata-mode: true
+geox-url:
+  geoip: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
+  geosite: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
+  asn: "https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/GeoLite2-ASN.mmdb"
+
+ntp:
+  enable: true
+  # 是否同步至系统时间，需要 root/管理员权限
+  write-to-system: false
+  server: time.apple.com
+  port: 123
+  interval: 30
+
+# 控制面板
+external-controller: 0.0.0.0:9090
+secret: ""
+external-ui: "/etc/mihomo/run/ui"
+external-ui-name: zashboard
+external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+
+# 嗅探
+sniffer:
+  enable: false
+#  force-dns-mapping: true
+#  parse-pure-ip: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - "+.v2ex.com"
+  skip-domain:
+#    - "rule-set:private_domain,direct_domain"
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+    - "upg_id_file.bin"
+    - "config.ptmi.gitv.tv"
+    - "angela"
+    - 'dlg.io.mi.com'
+
+# 入站  
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  route-exclude-address:
+    - 111.206.174.2/32
+    - 111.206.174.3/32
+    - 192.172.233.145/32
+#  mtu: 9000
+#  strict-route: true
+#  gso: true
+#  gso-max-size: 65536
+#  udp-timeout: 300
+
+# DNS模块
+dns:
+  enable: true
+  listen: :1053
+  ipv6: true
+  cache-algorithm: arc
+  prefer-h3: true
+  respect-rules: false
+  use-hosts: true
+  use-system-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - '+.lan'
+    - '+.local'
+    - "rule-set:private_domain,cn_domain,apple_domain"
+    - "+.services.googleapis.cn"
+    - "+.xn--ngstr-lra8j.com"
+    - "time.*.com"
+    - '+.pool.ntp.org'
+    - "geosite:cn,connectivity-check"
+    - "+.stun.*.*"
+    - "*.ntp.org.cn"
+    - "+.pool.ntp.org"
+    - '+.windows.com'
+    - '+.windowsupdate.com'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.nist.gov'
+    - '+.mi.com'
+    - '+.xiaomi.com'
+    - '+.xiaomi.cn'
+    - '+.xiaomi.net'
+    - '+.xiaomiyoupin.com'
+    - '+.mijia.tech'
+    - '+.miot-spec.org'
+    - '+.mi-img.com'
+    - '+.miui.com'
+    - '+.chinamobile.com'
+    - '+.cmvideo.com'
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  proxy-server-nameserver:
+    - 119.29.29.29
+  # namesever尽量用运营商提供的DNS
+  nameserver-policy:
+    "+.huaweidns.cn":
+    - https://sh.dns44.cn:44443/dns-query
+    - https://hk.dns44.cn:44443/dns-query
+    "geosite:cn,private":
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    "geosite:!cn,!private": 
+    - "tls://dns.google"
+    - "tls://cloudflare-dns.com"
+  nameserver:
+    - 'tls://8.8.4.4#dns'
+    - 'tls://1.0.0.1#dns'
+    - 'tls://[2001:4860:4860::8844]#dns'
+    - 'tls://[2606:4700:4700::1001]#dns'
+#  hosts:
+#    'cache.ott.fifalive.itv.cmvideo.cn': 'base-v4v6-cm-miguvideo.e.cdn.chinamobile.com'
+# 出站策略
+# 注意锚点必须放在引用的上方，可以集中把锚点全部放yaml的顶部。
+pr: &pr {type: select, proxies: [🚀 默认代理, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 台湾自动, ♻️ 自动选择, 🇭🇰 香港节点, TW 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点,自建节点,直连]}
+proxy-groups:
+  - name: "自建节点"
+    type: select
+    proxies:
+    - hostdz
+    - hostdz-anytls
+    - hostdz-cf
+    - hk-yecao
+    - hk-yecao-anytls
+    - hk-wawo
+    - hk-wawo-anytls
+    - hk-wawo-cf
+    - jp-legend
+    - jp-legend-anytls
+    - hncloud
+    - hncloud-anytls
+    include-all: true
+    filter: "(?i)移动"
+    url: 'https://www.gstatic.com/generate_204'
+    interval: 300
+    tolerance: 30
+  - {name: 🚀 默认代理, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 台湾自动, ♻️ 自动选择, 🇭🇰 香港节点, TW 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点,自建节点,直连]}
+  - {name: 广告拦截, type: select, proxies: [REJECT, DIRECT]}
+  - {name: 📹 YouTube, <<: *pr}
+  - {name: 🍀 Google, <<: *pr}
+  - {name: 🤖 ChatGPT, <<: *pr}
+  - {name: 👨🏿‍💻 GitHub, <<: *pr}
+  - {name: 🐬 OneDrive, <<: *pr}
+  - {name: 🪟 Microsoft, <<: *pr}
+  - {name: 🎵 TikTok, <<: *pr}
+  - {name: 📲 Telegram, <<: *pr}
+  - {name: 🎥 NETFLIX, <<: *pr}
+  - {name: 💶 PayPal, <<: *pr}
+  - {name: 🐟 漏网之鱼, <<: *pr}
+  - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong|自建节点"}
+  - {name: TW 台湾节点, type: select, include-all: true, filter: "(?i)台湾|tw|taiwan|tai wan|dz|legend"}
+  - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan|自建节点"}
+  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states|自建节点"}
+  - {name: 🔯 香港故转, type: fallback, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: 🔯 日本故转, type: fallback, include-all: true, tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
+  - {name: ♻️ 香港自动, type: url-test, include-all: true, url: 'https://www.gstatic.com/generate_204', tolerance: 20, interval: 300, filter: "(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|深|美)).)*$"}
+  - {name: ♻️ 日本自动, type: url-test, include-all: true, url: 'https://www.gstatic.com/generate_204', tolerance: 20, interval: 300, filter: "(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$" }
+  - {name: ♻️ 台湾自动, type: url-test, include-all: true, url: 'https://www.gstatic.com/generate_204', tolerance: 20, interval: 300, filter: "(?=.*(台|tw|taiwan|tai wan))^((?!(港|美|日|韩|新)).)*$"}
+  - {name: ♻️ 自动选择, type: url-test, include-all: true, url: 'https://www.gstatic.com/generate_204', tolerance: 20, interval: 300, filter: "^((?!(直连)).)*$"}
+  - {name: 🌐 全部节点, type: select, include-all: true}
+
+# 规则匹配
+# 此规则部分没有做防泄露处理，因为弊严重大于利！
+rules:
+  - IP-CIDR,68.64.180.63/32,直连,no-resolve
+  - IP-CIDR,216.23.101.10/32,直连,no-resolve
+  - IP-CIDR,143.14.104.31/32,直连,no-resolve
+  - IP-CIDR,208.66.229.175/32,直连,no-resolve
+  - IP-CIDR,207.56.228.173/32,直连,no-resolve
+  - IP-CIDR,142.91.105.112/32,直连,no-resolve
+  - DST-PORT,3478,直连
+  - DOMAIN-KEYWORD,stun,直连
+  - DOMAIN-SUFFIX,push.apple.com,🚀 默认代理
+ # - DOMAIN-SUFFIX,iptv.852851.xyz,🇺🇲 美国节点
+  - RULE-SET,myproxylist,🚀 默认代理
+  - RULE-SET,private_ip,直连,no-resolve
+  - RULE-SET,private_domain,直连
+  - RULE-SET,tw-tv,TW 台湾节点
+#  - RULE-SET,download,直连
+  - RULE-SET,proxylite,🚀 默认代理
+  - DOMAIN-SUFFIX,aircat.phicomm.com,REJECT-DROP
+  - RULE-SET,mydirect,直连
+  - RULE-SET,AWAvenue-Ads,广告拦截
+  - RULE-SET,Custom_Direct,直连
+ # - GEOSITE,category-ads,广告拦截
+  - GEOSITE,category-public-tracker,直连
+  - DOMAIN-SUFFIX,mytvsuper.com,🇭🇰 香港节点
+  - DOMAIN-KEYWORD,pccw,🇭🇰 香港节点
+  - DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
+  - DOMAIN-SUFFIX,hrtn.net,🇭🇰 香港节点
+  - RULE-SET,ai,🤖 ChatGPT
+  - RULE-SET,github_domain,👨🏿‍💻 GitHub
+  - RULE-SET,youtube_domain,📹 YouTube
+  - RULE-SET,google_domain,🍀 Google
+  - RULE-SET,onedrive_domain,🐬 OneDrive
+  - RULE-SET,microsoft_domain,🪟 Microsoft
+  - RULE-SET,apple_domain,直连
+  - RULE-SET,tiktok_domain,🎵 TikTok
+  - RULE-SET,telegram_domain,📲 Telegram
+  - RULE-SET,netflix_domain,🎥 NETFLIX
+  - RULE-SET,paypal_domain,💶 PayPal
+  - RULE-SET,apple_ip,直连,no-resolve
+  - RULE-SET,google_ip,🍀 Google,no-resolve
+  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
+  - RULE-SET,telegram_ip,📲 Telegram,no-resolve
+  - RULE-SET,geolocation-!cn,🚀 默认代理
+  - RULE-SET,cn_domain,直连
+  - RULE-SET,cn_ip,直连,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - IP-CIDR,100.64.0.0/10,DIRECT # 使用 Tailscale 需要删除此行
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - MATCH,🐟 漏网之鱼
+
+# 规则集
+rule-anchor:
+  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
+  domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
+  class: &class {type: http, interval: 86400, behavior: classical, format: text}
+rule-providers: 
+  AWAvenue-Ads:
+    type: http
+    behavior: domain
+    format: yaml
+    path: ./rule_provider/AWAvenue-Ads.yaml
+    url: "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.yaml"
+    interval: 86400
+  private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
+  proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/rules/proxy.list"}
+  ai: {  <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs" }
+  youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
+  google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
+  github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
+  telegram_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
+  netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
+  paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
+  onedrive_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
+  microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
+  apple_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs"}
+  speedtest_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ookla-speedtest.mrs"}
+  tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
+  geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
+  cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
+  
+  private_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs"}
+  cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
+  google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
+  telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
+  netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+  apple_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/apple.mrs"}
+  Custom_Direct:
+    type: http
+    behavior: domain
+    url: "https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main/rule/Custom_Direct_Domain.yaml"
+    path: ./ruleset/Custom_Direct.yaml
+    interval: 86400
+  tw-tv:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/tonysky2002/rule-for-nikki/refs/heads/main/tw-tv.yaml"
+    path: ./ruleset/tw-tv.yaml
+    interval: 86400
+  myproxylist:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/tonysky2002/rule-for-nikki/refs/heads/main/myproxylist.yaml"
+    path: ./ruleset/myproxylist.yaml
+    interval: 86400
+  mydirect:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/tonysky2002/rule-for-nikki/refs/heads/main/mydirect.yaml"
+    path: ./ruleset/mydirect.yaml
+    interval: 86400
+  download:
+    url: https://github.com/GGforceP/PersonalClashRuleSet/raw/main/rules/download_direct.list
+    path: ./ruleset/download_direct.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
