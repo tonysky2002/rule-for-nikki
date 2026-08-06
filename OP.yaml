@@ -6,8 +6,8 @@ proxy-providers:
       enable: true
       url: <https://www.gstatic.com/generate_204>
       interval: 300
-    proxy: 直连
-    url: https://sub.cucloud.top/api/v1/client/subscribe?token=MTE3NzozNWE4NDllMzM4OTQwZmU5YTYzY2YwMDZjZWFhMzYxMjBkOThiOGRl
+    proxy: DIRECT
+    url: https://sub.cucloud.top/api/v1/client/subscribe?token=MTE3Nzo1MWI1NmEzMmFjMzM4ZmE5ZDQxZmFmMDE4MzQ4NDIzN2JiYTA4YTgz
     
   yue.to:
     type: http
@@ -16,7 +16,7 @@ proxy-providers:
       enable: true
       url: <https://www.gstatic.com/generate_204>
       interval: 300
-    proxy: 直连
+    proxy: DIRECT
     url: https://sso.yuetoto.com/api/v2/avatar/e9909292f8992d41a6db1106515d138e
     
   CF:
@@ -26,7 +26,7 @@ proxy-providers:
       enable: true
       url: <https://www.gstatic.com/generate_204>
       interval: 300
-    proxy: 直连
+    proxy: DIRECT
     url: https://test.12321888.xyz/sub?token=9015856b111f3732608cb4097592362e
     
 # 节点信息
@@ -178,9 +178,6 @@ proxies:
   skip-cert-verify: true
   client-fingerprint: chrome
 
-- {name: 直连, type: direct, udp: true}
- 
-
 # 全局配置 
 port: 7890
 socks-port: 7891
@@ -222,7 +219,7 @@ ntp:
 
 # 嗅探
 sniffer:
-  enable: false
+  enable: true
 #  force-dns-mapping: true
 #  parse-pure-ip: true
   sniff:
@@ -271,7 +268,7 @@ dns:
   ipv6: true
   cache-algorithm: arc
   prefer-h3: true
-  respect-rules: false
+  respect-rules: true
   use-hosts: true
   use-system-hosts: true
   enhanced-mode: fake-ip
@@ -305,32 +302,28 @@ dns:
     - '+.miui.com'
     - '+.chinamobile.com'
     - '+.cmvideo.com'
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+  nameserver:
+    - tls://8.8.4.4
+    - tls://8.8.8.8
   proxy-server-nameserver:
-    - 119.29.29.29
-  # namesever尽量用运营商提供的DNS
+    - https://223.5.5.5/dns-query
   nameserver-policy:
     "+.huaweidns.cn":
     - https://sh.dns44.cn:44443/dns-query
     - https://hk.dns44.cn:44443/dns-query
-    "geosite:cn,private":
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    "geosite:!cn,!private": 
-    - "tls://dns.google"
-    - "tls://cloudflare-dns.com"
-  nameserver:
-    - 'tls://8.8.4.4#dns'
-    - 'tls://1.0.0.1#dns'
-    - 'tls://[2001:4860:4860::8844]#dns'
-    - 'tls://[2606:4700:4700::1001]#dns'
+    "geosite:google":
+    - tls://8.8.4.4
+    - tls://8.8.8.8
+    "geosite:private,onedrive,microsoft@cn,apple,category-games@cn,cn":
+    - 119.29.29.29
+    - 223.5.5.5.5
+
+
 #  hosts:
 #    'cache.ott.fifalive.itv.cmvideo.cn': 'base-v4v6-cm-miguvideo.e.cdn.chinamobile.com'
 # 出站策略
 # 注意锚点必须放在引用的上方，可以集中把锚点全部放yaml的顶部。
-pr: &pr {type: select, proxies: [🚀 默认代理, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 台湾自动, ♻️ 自动选择, 🇭🇰 香港节点, TW 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点,自建节点,直连]}
+pr: &pr {type: select, proxies: [🚀 默认代理, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 台湾自动, ♻️ 自动选择, 🇭🇰 香港节点, TW 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点,自建节点,DIRECT]}
 proxy-groups:
   - name: "自建节点"
     type: select
@@ -352,18 +345,9 @@ proxy-groups:
     url: 'https://www.gstatic.com/generate_204'
     interval: 300
     tolerance: 30
-  - {name: 🚀 默认代理, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 台湾自动, ♻️ 自动选择, 🇭🇰 香港节点, TW 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点,自建节点,直连]}
+  - {name: 🚀 默认代理, type: select, proxies: [🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 台湾自动, ♻️ 自动选择, 🇭🇰 香港节点, TW 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点,自建节点,DIRECT]}
   - {name: 广告拦截, type: select, proxies: [REJECT, DIRECT]}
-  - {name: 📹 YouTube, <<: *pr}
-  - {name: 🍀 Google, <<: *pr}
   - {name: 🤖 ChatGPT, <<: *pr}
-  - {name: 👨🏿‍💻 GitHub, <<: *pr}
-  - {name: 🐬 OneDrive, <<: *pr}
-  - {name: 🪟 Microsoft, <<: *pr}
-  - {name: 🎵 TikTok, <<: *pr}
-  - {name: 📲 Telegram, <<: *pr}
-  - {name: 🎥 NETFLIX, <<: *pr}
-  - {name: 💶 PayPal, <<: *pr}
   - {name: 🐟 漏网之鱼, <<: *pr}
   - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong|自建节点"}
   - {name: TW 台湾节点, type: select, include-all: true, filter: "(?i)台湾|tw|taiwan|tai wan|dz|legend"}
@@ -380,55 +364,30 @@ proxy-groups:
 # 规则匹配
 # 此规则部分没有做防泄露处理，因为弊严重大于利！
 rules:
-  - IP-CIDR,68.64.180.63/32,直连,no-resolve
-  - IP-CIDR,216.23.101.10/32,直连,no-resolve
-  - IP-CIDR,143.14.104.31/32,直连,no-resolve
-  - IP-CIDR,208.66.229.175/32,直连,no-resolve
-  - IP-CIDR,207.56.228.173/32,直连,no-resolve
-  - IP-CIDR,142.91.105.112/32,直连,no-resolve
-  - DST-PORT,3478,直连
-  - DOMAIN-KEYWORD,stun,直连
-  - DOMAIN-SUFFIX,push.apple.com,🚀 默认代理
- # - DOMAIN-SUFFIX,iptv.852851.xyz,🇺🇲 美国节点
-  - RULE-SET,myproxylist,🚀 默认代理
-  - RULE-SET,private_ip,直连,no-resolve
-  - RULE-SET,private_domain,直连
-  - RULE-SET,tw-tv,TW 台湾节点
-#  - RULE-SET,download,直连
-  - RULE-SET,proxylite,🚀 默认代理
+  - RULE-SET,private_domain,DIRECT
+  - RULE-SET,private_ip,DIRECT,no-resolve
   - DOMAIN-SUFFIX,aircat.phicomm.com,REJECT-DROP
-  - RULE-SET,mydirect,直连
+ # - DOMAIN-SUFFIX,push.apple.com,🚀 默认代理
+ # - DOMAIN-SUFFIX,iptv.852851.xyz,🇺🇲 美国节点
   - RULE-SET,AWAvenue-Ads,广告拦截
-  - RULE-SET,Custom_Direct,直连
- # - GEOSITE,category-ads,广告拦截
-  - GEOSITE,category-public-tracker,直连
+  - RULE-SET,tw-tv,TW 台湾节点
   - DOMAIN-SUFFIX,mytvsuper.com,🇭🇰 香港节点
   - DOMAIN-KEYWORD,pccw,🇭🇰 香港节点
   - DOMAIN-SUFFIX,tvb.com,🇭🇰 香港节点
   - DOMAIN-SUFFIX,hrtn.net,🇭🇰 香港节点
+  - RULE-SET,myproxylist,🚀 默认代理
+#  - RULE-SET,download,直连
+  - RULE-SET,proxylite,🚀 默认代理
+  - RULE-SET,mydirect,DIRECT
+  - RULE-SET,Custom_Direct,DIRECT
+ # - GEOSITE,category-ads,广告拦截
+  - GEOSITE,microsoft@cn,DIRECT
+  - GEOSITE,apple,DIRECT
+  - GEOSITE,category-public-tracker,DIRECT
   - RULE-SET,ai,🤖 ChatGPT
-  - RULE-SET,github_domain,👨🏿‍💻 GitHub
-  - RULE-SET,youtube_domain,📹 YouTube
-  - RULE-SET,google_domain,🍀 Google
-  - RULE-SET,onedrive_domain,🐬 OneDrive
-  - RULE-SET,microsoft_domain,🪟 Microsoft
-  - RULE-SET,apple_domain,直连
-  - RULE-SET,tiktok_domain,🎵 TikTok
-  - RULE-SET,telegram_domain,📲 Telegram
-  - RULE-SET,netflix_domain,🎥 NETFLIX
-  - RULE-SET,paypal_domain,💶 PayPal
-  - RULE-SET,apple_ip,直连,no-resolve
-  - RULE-SET,google_ip,🍀 Google,no-resolve
-  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
-  - RULE-SET,telegram_ip,📲 Telegram,no-resolve
   - RULE-SET,geolocation-!cn,🚀 默认代理
-  - RULE-SET,cn_domain,直连
-  - RULE-SET,cn_ip,直连,no-resolve
-  - IP-CIDR,10.0.0.0/8,DIRECT
-  - IP-CIDR,172.16.0.0/12,DIRECT
-  - IP-CIDR,192.168.0.0/16,DIRECT
-  - IP-CIDR,100.64.0.0/10,DIRECT # 使用 Tailscale 需要删除此行
-  - IP-CIDR,127.0.0.0/8,DIRECT
+  - RULE-SET,cn_domain,DIRECT
+  - RULE-SET,cn_ip,DIRECT,no-resolve
   - MATCH,🐟 漏网之鱼
 
 # 规则集
