@@ -1,7 +1,5 @@
 payload:
     - DOMAIN-SUFFIX,shouji.sogou.com
-    - DOMAIN-SUFFIX,cmvideo.cn
-    - DOMAIN-SUFFIX,miguvideo.com
     - DOMAIN-SUFFIX,tracker.cspt.date
     - DOMAIN-SUFFIX,tracker.cspt.top
     - DOMAIN-SUFFIX,tracker.cspt.cc
@@ -21,7 +19,6 @@ payload:
     - DOMAIN-SUFFIX,ddimg.mobi
     - DOMAIN-SUFFIX,cn-beijing.log.aliyuncs.com
     - DOMAIN-SUFFIX,757888.xyz
-    - DOMAIN-SUFFIX,aktv.space
     - DOMAIN-SUFFIX,dandanplay.net
     - DOMAIN-SUFFIX,ipecho.net
     - DOMAIN-SUFFIX,736dm.com
@@ -29,5 +26,5 @@ payload:
     - DOMAIN-SUFFIX,mch3.com
     - DOMAIN-SUFFIX,yinghuazy.xyz
     - DOMAIN-SUFFIX,yhdmjx.com
-    - IP-CIDR,220.130.197.210/32
-    - IP-CIDR,141.36.38.0/24
+    - DOMAIN-SUFFIX,live.264788.xyz
+
