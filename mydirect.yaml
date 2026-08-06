@@ -5,19 +5,13 @@ payload:
     - DOMAIN-SUFFIX,tracker.cspt.cc
     - DOMAIN-SUFFIX,vip.lz-cdn17.com
     - DOMAIN-SUFFIX,hhjx.hhplayer.com
-    - DOMAIN-SUFFIX,smt.520761.xyz
     - DOMAIN-SUFFIX,on.springsunday.net
-    - DOMAIN-SUFFIX,ledupeiyou.com
-    - DOMAIN-SUFFIX,speiyou.com
-    - DOMAIN-SUFFIX,xesimg.com
-    - DOMAIN-SUFFIX,xueersi.com
     - DOMAIN-SUFFIX,eaydu.com
     - DOMAIN-SUFFIX,jiaoyanyun.com
     - DOMAIN-SUFFIX,xescdn.com
     - DOMAIN-SUFFIX,vdyoo.com
     - DOMAIN-SUFFIX,ddxq.mobi
     - DOMAIN-SUFFIX,ddimg.mobi
-    - DOMAIN-SUFFIX,757888.xyz
     - DOMAIN-SUFFIX,dandanplay.net
     - DOMAIN-SUFFIX,ipecho.net
     - DOMAIN-SUFFIX,736dm.com
@@ -25,5 +19,5 @@ payload:
     - DOMAIN-SUFFIX,mch3.com
     - DOMAIN-SUFFIX,yinghuazy.xyz
     - DOMAIN-SUFFIX,yhdmjx.com
-    - DOMAIN-SUFFIX,264788.xyz
+    - DOMAIN-SUFFIX,264788.xyz  #ChinaTV
 
