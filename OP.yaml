@@ -7,7 +7,7 @@ proxy-providers:
       url: <https://www.gstatic.com/generate_204>
       interval: 300
     proxy: DIRECT
-    url: https://sub.cucloud.top/api/v1/client/subscribe?token=MTE3Nzo1MWI1NmEzMmFjMzM4ZmE5ZDQxZmFmMDE4MzQ4NDIzN2JiYTA4YTgz
+    url: https://sub.cucloud.top/api/v1/client/subscribe?token=MTE3NzoxYzE5MTEwYzk2OTRiNDdlMzRiZjRlYWQyOTEyNzk5M2VjZjM5NGFh
     
   yue.to:
     type: http
