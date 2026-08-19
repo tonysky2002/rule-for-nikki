@@ -549,9 +549,9 @@ http://216.23.101.10:16998/smt/1936?token=Tconfig123
 http://216.23.101.10:16998/smt/735?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07a7ad3ce62_zGkW.png" tvg-name="中天娱乐" group-title="Taiwan",中天娱乐
 http://216.23.101.10:16998/smt/529?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f3e9b6dc0_q9wh.png" tvg-name="中天綜合" group-title="Taiwan",中天綜合
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f3e9b6dc0_q9wh.png" tvg-name="中天綜合台" group-title="Taiwan",中天綜合台
 http://216.23.101.10:16998/smt/741?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5ef34b78abae9_lcUh.png" tvg-name="中天亞洲" group-title="Taiwan",中天亞洲
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5ef34b78abae9_lcUh.png" tvg-name="中天亞洲台" group-title="Taiwan",中天亞洲台
 http://216.23.101.10:16998/smt/1967?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f49783758_lqgU.png" tvg-name="台视 TTV HD" group-title="Taiwan",台视 TTV HD
 http://216.23.101.10:16998/smt/744?token=Tconfig123
@@ -635,7 +635,7 @@ http://216.23.101.10:16998/smt/508?token=Tconfig123
 http://216.23.101.10:16998/smt/2035?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5ef4d38506957_oDZu.jpg" tvg-name="亚洲旅游 TLC Asia" group-title="Taiwan",亚洲旅游 TLC Asia
 http://216.23.101.10:16998/smt/2055?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" tvg-name="東森電影" group-title="Taiwan",東森電影
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" tvg-name="東森電影台" group-title="Taiwan",東森電影台
 http://216.23.101.10:16998/smt/924?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f16f06e3f614_wOfo.png" tvg-name="阿里郎 Arirang" group-title="Taiwan",阿里郎 Arirang
 http://216.23.101.10:16998/smt/2080?token=Tconfig123
