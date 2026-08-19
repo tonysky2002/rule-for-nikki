@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U url-tvg="https://epg.yang-1989.eu.org/epg.xml.gz"
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/687b1586ec269_o2Me.svg" tvg-name="Channel 5" group-title="Singapore",Channel 5
 http://216.23.101.10:16998/smt/1601?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/687b157aa4baf_l0Ja.svg" tvg-name="Channel 5 backup" group-title="Singapore",Channel 5 backup
