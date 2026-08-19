@@ -547,7 +547,7 @@ http://216.23.101.10:16998/smt/2469?token=Tconfig123
 http://216.23.101.10:16998/smt/1936?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f29e89470_TOZ4.png" tvg-name="TVBS HD" group-title="Taiwan",TVBS HD
 http://216.23.101.10:16998/smt/735?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07a7ad3ce62_zGkW.png" tvg-name="中天娱乐" group-title="Taiwan",中天娱乐
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07a7ad3ce62_zGkW.png" tvg-name="中天娱乐台" group-title="Taiwan",中天娱乐台
 http://216.23.101.10:16998/smt/529?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f3e9b6dc0_q9wh.png" tvg-name="中天綜合台" group-title="Taiwan",中天綜合台
 http://216.23.101.10:16998/smt/741?token=Tconfig123
@@ -587,11 +587,11 @@ http://216.23.101.10:16998/smt/278?token=Tconfig123
 http://216.23.101.10:16998/smt/543?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5fa3dd3d83ead_l7lR.jpg" tvg-name="三立戏剧台" group-title="Taiwan",三立戏剧台
 http://216.23.101.10:16998/smt/2236?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f8d13edd1_SZPZ.png" tvg-name="三立综合 Sanli Metro" group-title="Taiwan",三立综合 Sanli Metro
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f8d13edd1_SZPZ.png" tvg-name="三立综合台" group-title="Taiwan",三立综合台
 http://216.23.101.10:16998/smt/756?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5ef478076b65f_ZOy7.png" tvg-name="三立都会台" group-title="Taiwan",三立都会台
 http://216.23.101.10:16998/smt/2026?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/597214f33c2f3_Iir8.jpg" tvg-name="東森綜合" group-title="Taiwan",東森綜合
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/597214f33c2f3_Iir8.jpg" tvg-name="東森綜合台" group-title="Taiwan",東森綜合台
 http://216.23.101.10:16998/smt/118?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07aa9f60889_OvMr.png" tvg-name="东森戏剧 ETTV Drama" group-title="Taiwan",东森戏剧 ETTV Drama
 http://216.23.101.10:16998/smt/546?token=Tconfig123
@@ -601,9 +601,9 @@ http://216.23.101.10:16998/smt/2830?token=Tconfig123
 http://216.23.101.10:16998/smt/550?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2104d7173d8_laLA.png" tvg-name="龙华戏剧 Lunghua Drama" group-title="Taiwan",龙华戏剧 Lunghua Drama
 http://216.23.101.10:16998/smt/811?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f16f006937ee_hbZ8.jpg" tvg-name="龍華經典" group-title="Taiwan",龍華經典
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f16f006937ee_hbZ8.jpg" tvg-name="龍華經典台" group-title="Taiwan",龍華經典台
 http://216.23.101.10:16998/smt/2079?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a21052c811cb_AFAb.jpg" tvg-name="龍華偶像" group-title="Taiwan",龍華偶像
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a21052c811cb_AFAb.jpg" tvg-name="龍華偶像台" group-title="Taiwan",龍華偶像台
 http://216.23.101.10:16998/smt/812?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a214f430ba32_4W5w.png" tvg-name="AXN Taiwan" group-title="Taiwan",AXN Taiwan
 http://216.23.101.10:16998/smt/906?token=Tconfig123
@@ -643,9 +643,9 @@ http://216.23.101.10:16998/smt/2080?token=Tconfig123
 http://216.23.101.10:16998/smt/2083?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f16f2d170aaf_zKOw.png" tvg-name="博斯运动 2" group-title="Taiwan",博斯运动 2
 http://216.23.101.10:16998/smt/2084?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/687359d5b4f76_uR3E.jpg" tvg-name="東森洋片" group-title="Taiwan",東森洋片
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/687359d5b4f76_uR3E.jpg" tvg-name="東森洋片台" group-title="Taiwan",東森洋片台
 http://216.23.101.10:16998/smt/763?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a21049520fc1_QIVj.png" tvg-name="龍華洋片" group-title="Taiwan",龍華洋片
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a21049520fc1_QIVj.png" tvg-name="龍華洋片台" group-title="Taiwan",龍華洋片台
 http://216.23.101.10:16998/smt/810?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f16f3c25dba2_Xkc0.png" tvg-name="博斯无限" group-title="Taiwan",博斯无限
 http://216.23.101.10:16998/smt/2087?token=Tconfig123
@@ -663,21 +663,21 @@ http://216.23.101.10:16998/smt/2101?token=Tconfig123
 http://216.23.101.10:16998/smt/2078?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a215c530b17b_qqz4.png" tvg-name="东森幼幼 Yoyo TV" group-title="Taiwan",东森幼幼 Yoyo TV
 http://216.23.101.10:16998/smt/969?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f2edf3bc7057_sF6F.png" tvg-name="美亞電影" group-title="Taiwan",美亞電影
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f2edf3bc7057_sF6F.png" tvg-name="美亞電影台" group-title="Taiwan",美亞電影台
 http://216.23.101.10:16998/smt/2099?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6899b47f2c36f_f7lG.jpeg" tvg-name="爱尔达戏剧台" group-title="Taiwan",爱尔达戏剧台
 http://216.23.101.10:16998/smt/2043?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f35d6bc9f_jpuU.png" tvg-name="TVBS News 新聞台" group-title="Taiwan",TVBS News 新聞台
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f35d6bc9f_jpuU.png" tvg-name="TVBS 新聞台" group-title="Taiwan",TVBS 新聞台
 http://216.23.101.10:16998/smt/738?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6915b1b5d62a3_A6Zw.png" tvg-name="Asia Food Network" group-title="Taiwan",Asia Food Network
 http://216.23.101.10:16998/smt/1042?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e91132c0a_CJ18.png" tvg-name="Elta体育1台" group-title="Taiwan",Elta体育1台
 http://216.23.101.10:16998/smt/2871?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07aa66e2bfd_0a3a.jpg" tvg-name="東森新聞" group-title="Taiwan",東森新聞
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07aa66e2bfd_0a3a.jpg" tvg-name="東森新聞台" group-title="Taiwan",東森新聞台
 http://216.23.101.10:16998/smt/544?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20fa57a4f36_U0S8.png" tvg-name="東森財經新聞 ETTV Business" group-title="Taiwan",東森財經新聞 ETTV Business
 http://216.23.101.10:16998/smt/761?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5d864efce07b1_Cob7.jpg" tvg-name="中天新聞" group-title="Taiwan",中天新聞
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5d864efce07b1_Cob7.jpg" tvg-name="中天新聞台" group-title="Taiwan",中天新聞台
 http://216.23.101.10:16998/smt/1923?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07b5cf79950_l89e.png" tvg-name="非凡新聞台" group-title="Taiwan",非凡新聞台
 http://216.23.101.10:16998/smt/575?token=Tconfig123
@@ -705,7 +705,7 @@ http://216.23.101.10:16998/smt/2878?token=Tconfig123
 http://216.23.101.10:16998/smt/2869?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/68937a5570df2_vtEZ.png" tvg-name="DAZN 2" group-title="Taiwan",DAZN 2
 http://216.23.101.10:16998/smt/2870?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" tvg-name="Catchplay 电影" group-title="Taiwan",Catchplay 电影
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" tvg-name="Catchplay 电影台" group-title="Taiwan",Catchplay 电影台
 http://216.23.101.10:16998/smt/2936?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e6e1f1202_gvvT.png" tvg-name="动物星球" group-title="Taiwan",动物星球
 http://216.23.101.10:16998/smt/2937?token=Tconfig123
@@ -807,7 +807,7 @@ http://216.23.101.10:16998/smt/738?token=Tconfig123
 http://216.23.101.10:16998/smt/1089?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a0fe1c7e1e0e_lTle.png" tvg-name="Bloomberg News" group-title="News",Bloomberg News
 http://216.23.101.10:16998/smt/267?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07aa66e2bfd_0a3a.jpg" tvg-name="東森新聞" group-title="News",東森新聞
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a07aa66e2bfd_0a3a.jpg" tvg-name="東森新聞台" group-title="News",東森新聞台
 http://216.23.101.10:16998/smt/544?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20fa57a4f36_U0S8.png" tvg-name="東森財經新聞 ETTV Business" group-title="News",東森財經新聞 ETTV Business
 http://216.23.101.10:16998/smt/761?token=Tconfig123
@@ -893,11 +893,11 @@ http://216.23.101.10:16998/smt/496?token=Tconfig123
 http://216.23.101.10:16998/smt/2732?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/62caac4b4e685_4aD4.png" tvg-name="大爱2台" group-title="Movie",大爱2台
 http://216.23.101.10:16998/smt/508?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" tvg-name="東森電影" group-title="Movie",東森電影
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" tvg-name="東森電影台" group-title="Movie",東森電影台
 http://216.23.101.10:16998/smt/924?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/687359d5b4f76_uR3E.jpg" tvg-name="東森洋片" group-title="Movie",東森洋片
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/687359d5b4f76_uR3E.jpg" tvg-name="東森洋片台" group-title="Movie",東森洋片台
 http://216.23.101.10:16998/smt/763?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a21049520fc1_QIVj.png" tvg-name="龍華洋片" group-title="Movie",龍華洋片
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a21049520fc1_QIVj.png" tvg-name="龍華洋片台" group-title="Movie",龍華洋片台
 http://216.23.101.10:16998/smt/810?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/607d59b103887_nVWq.png" tvg-name="Animax" group-title="Movie",Animax
 http://216.23.101.10:16998/smt/2291?token=Tconfig123
@@ -913,7 +913,7 @@ http://216.23.101.10:16998/smt/2078?token=Tconfig123
 http://216.23.101.10:16998/smt/2292?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/607d59eb3a668_w1aF.png" tvg-name="Warner TV" group-title="Movie",Warner TV
 http://216.23.101.10:16998/smt/2293?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f2edf3bc7057_sF6F.png" tvg-name="美亞電影" group-title="Movie",美亞電影
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5f2edf3bc7057_sF6F.png" tvg-name="美亞電影台" group-title="Movie",美亞電影台
 http://216.23.101.10:16998/smt/2099?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/607d5a1f01819_pHwR.png" tvg-name="SCM" group-title="Movie",SCM
 http://216.23.101.10:16998/smt/2295?token=Tconfig123
@@ -947,7 +947,7 @@ http://216.23.101.10:16998/smt/1587?token=Tconfig123
 http://216.23.101.10:16998/smt/2713?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/646898eea5975_32x1.jpg" tvg-name="Rock Entertainment" group-title="Movie",Rock Entertainment
 http://216.23.101.10:16998/smt/2714?token=Tconfig123
-#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" tvg-name="Catchplay 電影" group-title="Movie",Catchplay 電影
+#EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" tvg-name="Catchplay 電影台" group-title="Movie",Catchplay 電影台
 http://216.23.101.10:16998/smt/2936?token=Tconfig123
 #EXTINF:-1 tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a98f24ab1e1e_lcJU.png" tvg-name="CI" group-title="Documentary",CI
 http://216.23.101.10:16998/smt/1243?token=Tconfig123
