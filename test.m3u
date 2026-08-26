@@ -39,12 +39,9 @@ http://198.98.55.60:6666/z/index.m3u8
 http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1782639885837
 #EXTINF:-1,tvg-id="TVBS" tvg-name="TVBS" tvg-logo="https://epg.112114.eu.org/logo/TVBS.png" group-title="其他",TVBS
 http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837  
-
-F1 APPLE TV+ FEED
+#EXTINF:-1,tvg-id="F1 APPLE TV+" tvg-name="F1 APPLE TV+" group-title="其他",F1 APPLE TV+
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bloqv62cg8/out/v1/0f6b2626aef2496e97bce1b5998b49b5/cenc.mpd|drmScheme=clearkey&drmLicense=c0a9d1e7eaf683120499b4017314a518:990018b9907cf9b5ae4c3dd9eb948255
-
-F1 SKY FEED
+#EXTINF:-1,tvg-id="F1 SKY" tvg-name="F1 SKY" group-title="其他",F1 SKY
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1y6zgazim1/out/v1/489690bfe676484e8034f5db55b454fd/cenc.mpd?|drmScheme=clearkey&drmLicense=6dd170459b9d19e43bc554e783570a2b:1a86def14df85af755c5f26d7457fcea
-
-TSN SPORTS
+#EXTINF:-1,tvg-id="TSN SPORTS" tvg-name="TSN SPORTS" group-title="其他",TSN SPORTS
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
