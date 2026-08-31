@@ -4,7 +4,7 @@ https://cdn.qd.je/163189/fhzw
 #EXTINF:-1,tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://epg.112114.eu.org/logo/凤凰中文.png" group-title="香港",凤凰中文
 https://php.jdshipin.com:2096/TVOD/iptv.php?id=fhzw2
 #EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.eu.org/logo/凤凰资讯.png" group-title="香港",凤凰资讯
-https://cdn.qd.je/163189/fhzx
+http://211.23.95.147:18881/live/dtv31_h265.ts
 #EXTINF:-1,tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://epg.112114.eu.org/logo/凤凰资讯.png" group-title="香港",凤凰资讯
 http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=382819&extension=m3u8
 #EXTINF:-1,tvg-id="美亚电影" tvg-name="美亚电影" tvg-logo="https://epg.112114.eu.org/logo/美亚电影.png" group-title="其他",美亚电影
