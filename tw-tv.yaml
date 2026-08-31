@@ -7,3 +7,5 @@ payload:
     - DOMAIN-SUFFIX,ofissaifreemobile.akamaized.net
     - DOMAIN-SUFFIX,ofiii.com
     - DOMAIN-SUFFIX,msbot.dpdns.org
+    - IP-SUFFIX,211.23.95.147
+
