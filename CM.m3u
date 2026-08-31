@@ -1,4 +1,4 @@
-#EXTM3U catchup="append" catchup-source="&playseek=${start-year}${start-mon}${start-day}${start-hour}${start-min}${start-sec}-${end-year}${end-mon}${end-day}${end-hour}${end-min}${end-sec}"
+#EXTM3U catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="CCTV-1" tvg-name="CCTV-1" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV1.png" group-title="央视频道",CCTV-1 综合
 http://iptvrr.sh.chinamobile.com:6060/cms001/ch00000090990000001022/index.m3u8
 #EXTINF:-1 tvg-id="CCTV-2" tvg-name="CCTV-2" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/CCTV2.png" group-title="央视频道",CCTV-2 财经
