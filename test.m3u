@@ -47,45 +47,45 @@ http://216.23.101.10:19527/catvod_com/741
 http://216.23.101.10:19527/catvod_com/1923
 #EXTINF:-1 tvg-id="898" tvg-name="HBO HD" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a214c5249a75_DKEB.png" group-title="台湾",HBO HD
 http://216.23.101.10:19527/catvod_com/898
-#EXTINF:-1 tvg-id="924" tvg-name="東森電影" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" group-title="台湾",東森電影
+#EXTINF:-1 tvg-id="924" tvg-name="東森電影台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" group-title="台湾",東森電影台
 http://216.23.101.10:19527/catvod_com/924
-#EXTINF:-1 tvg-id="1207" tvg-name="HBO强档巨献" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a98c1dfc0d15_7wpj.png" group-title="台湾",HBO强档巨献
+#EXTINF:-1 tvg-id="1207" tvg-name="HBO Hits" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a98c1dfc0d15_7wpj.png" group-title="台湾",HBO Hits
 http://216.23.101.10:19527/catvod_com/1207
 #EXTINF:-1 tvg-id="2878" tvg-name="Discovery" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6899b0b5131a2_T2qC.png" group-title="台湾",Discovery
 http://216.23.101.10:19527/catvod_com/2878
-#EXTINF:-1 tvg-id="2936" tvg-name="Catchplay 電影" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" group-title="台湾",Catchplay 電影
+#EXTINF:-1 tvg-id="2936" tvg-name="Catchplay電影台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" group-title="台湾",Catchplay電影台
 http://216.23.101.10:19527/catvod_com/2936
 #EXTINF:-1 tvg-id="2937" tvg-name="動物星球" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e6e1f1202_gvvT.png" group-title="台湾",動物星球
 http://216.23.101.10:19527/catvod_com/2937
 #EXTINF:-1,tvg-id="F1 APPLE TV+" tvg-name="F1 APPLE TV+" group-title="其他",F1 APPLE TV+
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bloqv62cg8/out/v1/0f6b2626aef2496e97bce1b5998b49b5/cenc.mpd|drmScheme=clearkey&drmLicense=c0a9d1e7eaf683120499b4017314a518:990018b9907cf9b5ae4c3dd9eb948255
-#EXTINF:-1,tvg-id="F1 SKY" tvg-name="F1 SKY" group-title="其他",F1 SKY
+#EXTINF:-1,tvg-id="SKY Sports F1" tvg-name="F1 SKY" group-title="其他",SKY Sports F1
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/1y6zgazim1/out/v1/489690bfe676484e8034f5db55b454fd/cenc.mpd?|drmScheme=clearkey&drmLicense=6dd170459b9d19e43bc554e783570a2b:1a86def14df85af755c5f26d7457fcea
 #EXTINF:-1,tvg-id="TSN SPORTS" tvg-name="TSN SPORTS" group-title="其他",TSN SPORTS
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8
 
-#EXTINF:-1,TNT 1
+#EXTINF:-1,TNT Sports 1
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3c.clearkey
 #KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
 
-#EXTINF:-1,TNT 2
+#EXTINF:-1,TNT Sports 2
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3c.clearkey
 #KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
 
-#EXTINF:-1,TNT 3
+#EXTINF:-1,TNT Sports 3
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3c.clearkey
 #KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
 
-#EXTINF:-1,TNT 4
+#EXTINF:-1,TNT Sports 4
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=org.w3c.clearkey
