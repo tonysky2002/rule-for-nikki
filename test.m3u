@@ -41,21 +41,21 @@ http://198.98.55.60:6666/z/index.m3u8
 http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1782639885837
 #EXTINF:-1,tvg-id="TVBS HD" tvg-name="TVBS HD" tvg-logo="https://epg.112114.eu.org/logo/TVBS.png" group-title="其他",TVBS HD
 http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837
-#EXTINF:-1 tvg-id="741" tvg-name="中天综合台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f3e9b6dc0_q9wh.png" group-title="台湾",中天综合台
+#EXTINF:-1 tvg-id="741" tvg-name="中天綜合台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f3e9b6dc0_q9wh.png" group-title="台湾",中天綜合台
 http://216.23.101.10:19527/catvod_com/741
 #EXTINF:-1 tvg-id="1923" tvg-name="中天新聞台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5d864efce07b1_Cob7.jpg" group-title="台湾",中天新聞台
 http://216.23.101.10:19527/catvod_com/1923
 #EXTINF:-1 tvg-id="898" tvg-name="HBO HD" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a214c5249a75_DKEB.png" group-title="台湾",HBO HD
 http://216.23.101.10:19527/catvod_com/898
-#EXTINF:-1 tvg-id="924" tvg-name="东森电影台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" group-title="台湾",东森电影台
+#EXTINF:-1 tvg-id="924" tvg-name="東森電影" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a2151e2716d5_9LKH.jpg" group-title="台湾",東森電影
 http://216.23.101.10:19527/catvod_com/924
 #EXTINF:-1 tvg-id="1207" tvg-name="HBO强档巨献" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a98c1dfc0d15_7wpj.png" group-title="台湾",HBO强档巨献
 http://216.23.101.10:19527/catvod_com/1207
-#EXTINF:-1 tvg-id="2878" tvg-name="探索频道" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6899b0b5131a2_T2qC.png" group-title="台湾",探索频道
+#EXTINF:-1 tvg-id="2878" tvg-name="Discovery" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6899b0b5131a2_T2qC.png" group-title="台湾",Discovery
 http://216.23.101.10:19527/catvod_com/2878
-#EXTINF:-1 tvg-id="2936" tvg-name="Catchplay电影台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" group-title="台湾",Catchplay电影台
+#EXTINF:-1 tvg-id="2936" tvg-name="Catchplay 電影" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e44642cd5_9aQ9.png" group-title="台湾",Catchplay 電影
 http://216.23.101.10:19527/catvod_com/2936
-#EXTINF:-1 tvg-id="2937" tvg-name="动物星球" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e6e1f1202_gvvT.png" group-title="台湾",动物星球
+#EXTINF:-1 tvg-id="2937" tvg-name="動物星球" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e6e1f1202_gvvT.png" group-title="台湾",動物星球
 http://216.23.101.10:19527/catvod_com/2937
 #EXTINF:-1,tvg-id="F1 APPLE TV+" tvg-name="F1 APPLE TV+" group-title="其他",F1 APPLE TV+
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bloqv62cg8/out/v1/0f6b2626aef2496e97bce1b5998b49b5/cenc.mpd|drmScheme=clearkey&drmLicense=c0a9d1e7eaf683120499b4017314a518:990018b9907cf9b5ae4c3dd9eb948255
