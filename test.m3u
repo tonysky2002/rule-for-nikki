@@ -37,8 +37,6 @@ https://cdn.qd.je/163189/wxty
 https://d2jc41c1shgcol.cloudfront.net/live/CtiNEWS1/playlist.m3u8
 #EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://epg.112114.eu.org/logo/中天新聞台.png" group-title="其他",中天新聞台
 http://198.98.55.60:6666/z/index.m3u8
-#EXTINF:-1,tvg-id="中天新聞台" tvg-name="中天新聞台" tvg-logo="https://epg.112114.eu.org/logo/中天新聞台.png" group-title="其他",中天新聞台
-http://4gtv.cnlive.club/channel/3824d067/index.m3u8?q=1782639885837
 #EXTINF:-1,tvg-id="TVBS HD" tvg-name="TVBS HD" tvg-logo="https://epg.112114.eu.org/logo/TVBS.png" group-title="其他",TVBS HD
 http://216.23.101.10:19527/catvod_com/735
 #EXTINF:-1 tvg-id="741" tvg-name="中天綜合台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5a20f3e9b6dc0_q9wh.png" group-title="台湾",中天綜合台
