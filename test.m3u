@@ -57,6 +57,8 @@ http://216.23.101.10:19527/catvod_com/2878
 http://216.23.101.10:19527/catvod_com/2936
 #EXTINF:-1 tvg-id="2937" tvg-name="動物星球" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/6a60e6e1f1202_gvvT.png" group-title="台湾",動物星球
 http://216.23.101.10:19527/catvod_com/2937
+#EXTINF:-1 tvg-id="2026" tvg-name="三立都會台" tvg-logo="http://tpshen.com:16310/uploadfiles/livelogo/5ef478076b65f_ZOy7.png" group-title="台湾",三立都會台
+http://216.23.101.10:19527/catvod_com/2026
 
 #EXTINF:-1,TNT Sports 1
 #KODIPROP:inputstream=inputstream.adaptive
